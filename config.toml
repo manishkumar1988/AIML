@@ -1,0 +1,6 @@
+# Fixed seed for every scored run. Change it only in a logged experiment.
+seed = 42
+
+[paths]
+data = "data"
+checkpoints = "checkpoints"

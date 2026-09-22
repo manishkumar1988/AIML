@@ -1,0 +1,26 @@
+[project]
+name = "aiml-challenges"
+version = "0.1.0"
+description = "Hands-on workspace for the AI/ML engineer practice curriculum."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest==8.4.2"]
+
+[project.scripts]
+aiml-smoke = "aiml.smoke:main"
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.uv]
+package = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

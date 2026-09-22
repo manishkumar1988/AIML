@@ -1,0 +1,33 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+
+# Data and checkpoints
+data/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+credentials.json
+
+# OS
+.DS_Store
