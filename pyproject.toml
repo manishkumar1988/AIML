@@ -4,7 +4,9 @@ version = "0.1.0"
 description = "Hands-on workspace for the AI/ML engineer practice curriculum."
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "pandas==3.0.6",
+]
 
 [project.optional-dependencies]
 dev = ["pytest==8.4.2"]

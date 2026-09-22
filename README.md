@@ -37,5 +37,17 @@ uv run pytest
 | `config.toml` | Seed and the `data/` and `checkpoints/` paths |
 | `src/aiml/seed.py` | Sets the Python seed from that config |
 | `src/aiml/smoke.py` | Loads config, prints the seed, exits |
-| `data/` | Later datasets. Gitignored. |
+| `data/` | Later datasets. Gitignored. Challenge 2 reads `data/creditcard.csv`. |
 | `checkpoints/` | Later model weights. Gitignored. |
+| `notes/creditcard-audit.md` | Challenge 2 data note and the Challenge 3 split rule |
+| `experiments/log.csv` | Experiment log. Challenge 2 has the first row. |
+
+## Challenge 2 — fraud table audit
+
+The CSV is not in git. Place the ULB credit-card file at `data/creditcard.csv` (Kaggle `mlg-ulb/creditcardfraud`). The copy used here is the Zenodo file with MD5 `e90efcb83d69faf99fcab8b0255024de`.
+
+```bash
+uv run python -m aiml.creditcard
+```
+
+A good run prints `row_count=284807` and exits 0. It checks that `Class` is present and that the row count still matches `row_count:` in `notes/creditcard-audit.md`. It does not fit a classifier.
