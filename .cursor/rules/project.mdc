@@ -1,0 +1,6 @@
+---
+description: Project rules shared with all AI coding tools
+alwaysApply: true
+---
+
+Follow every rule in @AGENTS.md (the single source of truth for this repo's conventions).

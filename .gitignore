@@ -1,0 +1,22 @@
+# Environments
+.venv/
+venv/
+.env
+.env.local
+.env.development.local
+
+# Data and models (too big / private for git)
+data/
+models/
+
+# Python and tool caches
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store

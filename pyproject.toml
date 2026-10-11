@@ -1,0 +1,22 @@
+[project]
+name = "aiml-challenges"
+version = "0.1.0"
+description = "Hands-on AI/ML engineer practice path"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+]
+
+# Makes work/common importable as `common` from any script (installed in editable mode by `uv sync`).
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["work/common"]
