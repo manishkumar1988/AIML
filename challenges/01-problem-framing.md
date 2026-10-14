@@ -27,6 +27,8 @@ For any request, answer these six questions:
 
 Read: Google's [Rules of Machine Learning](https://developers.google.com/machine-learning/guides/rules-of-ml), Rules #1–#4 only. Rule #1 is "don't be afraid to launch a product without machine learning."
 
+Keep the [problem types, baselines and metrics guide](../guides/problem-types-baselines-metrics.md) open while you work. Use it as a reference, not as an answer key.
+
 ## Build
 
 Create `work/01-framing/NOTES.md`. For each of the 25 requests below, fill in a block like this:

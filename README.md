@@ -214,6 +214,7 @@ About 8–10 hours a week, about one challenge a week. Some take two. Total: rou
 | `work/NN-name/` | Your code and `NOTES.md` for each challenge. You create these. |
 | [`decision-map.md`](decision-map.md) | **Your** guide to "which approach for which problem." You fill it in as you go. |
 | [`glossary.md`](glossary.md) | Plain-language definitions of the terms you'll meet. |
+| [`guides/`](guides/README.md) | 11 reference guides: problem types and metrics, data preparation, splits and leakage, choosing algorithms, specs for AI coding, deep learning, LLM concepts, GenAI system design, prompting, a command cheat sheet, and portfolio/interviews. |
 | [`progress.md`](progress.md) | Tick off challenges and record dates. |
 
 ---
