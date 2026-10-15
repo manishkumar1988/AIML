@@ -4,8 +4,8 @@ Status: `todo` · `doing` · `done` · `partial` (stuck, will return) · `skippe
 
 | # | Challenge | Status | Started | Finished | One-line takeaway |
 | --- | --- | --- | --- | --- | --- |
-| 00 | Workspace setup | todo | | | |
-| 01 | Problem framing | todo | | | |
+| 00 | Workspace setup | done | | 2026-10-11 | uv + lockfile + seed + AGENTS.md rules make every run reproducible |
+| 01 | Problem framing | done | 2026-10-14 | 2026-10-16 | Label-free problems differ: similarity vs anomaly vs clustering; not everything is ML |
 | 02 | First end-to-end model | todo | | | |
 | 03 | Customer churn | todo | | | |
 | 04 | Fraud detection | todo | | | |
